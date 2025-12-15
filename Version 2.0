@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planes</title>
+
+
+<style>
+/* Reset básico */
+* {
+box-sizing: border-box;
+}
+
+
+body {
+height: 100vh;
+margin: 0;
+background-color: blue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Título principal */
+#titulo {
+text-align: center;
+color: white;
+margin: 20px 0;
+}
+
+
+/* Contenedor de planes */
+#planes {
+height: 80%;
+display: flex;
+gap: 10px;
+padding: 10px;
+}
+
+
+/* Tarjetas */
+.plan {
+background-color: white;
+padding: 15px;
+flex: 1;
+}
+
+
+.plan h1 {
+color: blue;
+text-align: center;
+}
+
+
+.plan p {
+text-align: center;
+}
+
+
+.precio {
+text-align: center;
+font-size: 50px;
+margin: 0;
+}
+
+
+/* Botón */
+.boton-contenedor {
+text-align: center;
+}
+
+
+button {
+font-size: 30px;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+background-color: red;
+color: white;
+cursor: pointer;
+}
+
+
+button:hover {
+background-color: blue;
+}
+</style>
+</head>
+
+
+<body>
+
+
+<h1 id="titulo">Elija el plan más adecuado y disfrute de nuestros servicios</h1>
+
+
+<section id="planes">
+
+
+<article class="plan">
+<h1>Principiante</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, necessitatibus sint amet pariatur porro natus aspernatur nihil? Voluptatibus, eum, placeat, rerum praesentium architecto esse error corporis temporibus sint hic inventore.</p>
+<h2 class="precio">1€/mes</h2>
+<div class="boton-contenedor">
+<button>Elegir</button>
+</div>
+</article>
+
+
+<article class="plan">
+<h1>Básico</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam iure officia id fugiat enim, nesciunt commodi, iusto ea autem nam! Distinctio magnam facilis debitis maiores voluptates, fuga aliquam tenetur?</p>
+<h2 class="precio">10€/mes</h2>
+<div class="boton-contenedor">
+<button>Elegir</button>
+</div>
+</article>
+
+
+<article class="plan">
+<h1>Profesional</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nostrum consequatur maxime sit eaque dolore magnam, ullam repellat. Neque beatae </p>
+<h2 class="precio">25€/mes</h2>
+<p class="palabra"><button>Elegir</button></p>
+</html>
